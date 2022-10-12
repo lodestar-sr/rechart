@@ -1,0 +1,39 @@
+.table-container .title {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    color: #454545;
+    border-bottom: 1px solid #dad9de;
+    margin-bottom: 0.5rem;
+}
+
+.table-container table {
+    border-collapse: collapse;
+    font-size: 0.875rem;
+    color: #454545;
+}
+
+.table-container table th {
+    cursor: pointer;
+    user-select: none;
+}
+
+.table-container table th i {
+    margin-left: 5px;
+}
+
+.table-container table th,
+.table-container table td {
+    min-width: 8rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.table-container table th:first-child,
+.table-container table td:first-child {
+    text-align: left;
+}
+
+.table-container table tbody tr:nth-of-type(odd) {
+    background: #ecedef;
+    border: 1px solid #dad9de;
+}

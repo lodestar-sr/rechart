@@ -1,0 +1,69 @@
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.w-screen {
+  width: 100vw;
+}
+.h-screen {
+  height: 100vh;
+}
+
+.d-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-primary {
+  color: #1e88e5;
+}
+.text-success {
+  color: #28a745;
+}
+.text-warning {
+  color: #ffc107;
+}
+.text-danger {
+  color: #dc3545;
+}
+
+.text-md {
+  font-size: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.mt-5 {
+  margin-top: 2rem;
+}
+.ml-4 {
+  margin-left: 1.5rem;
+}
+.mr-auto {
+  margin-right: auto;
+}
